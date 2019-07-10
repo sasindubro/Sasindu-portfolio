@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+
+.background{
+margin: 0;
+    padding: 0;
+   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.nav{
+    width:350px;
+    height: auto;
+    
+    position: absolute;
+    top:20%;
+    left:0;
+
+}
+.nav a{
+text-decoration:none;
+font-size:28px;
+font-weight: bold;
+width: 50%;
+height:10%;
+margin: 5px;
+float:left;
+display:inline-block;
+background-color: black;
+color: white;
+line-height: 90px;
+text-align: center;
+transition: 300ms;
+}
+
+a.active,.nav a:hover{
+    background-color:white;
+    color:black;
+    width:100%;
+}
+.a{
+    width:95%;
+}
+.b{
+    width:85%;
+}
+.c{
+    width:80%;
+}
+.d{
+    width:90%;
+}
+
+.contact{
+    position:absolute;
+    right:0;
+    top:10px;
+    color:white;
+    padding:0 60px;
+
+}
+.inputtext{
+    width:55%;
+    height:65px;
+    border:3px solid black;
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    font-size:20px;
+    padding:0 10px;
+    float:left;
+    margin-bottom:15px;
+     cursor: pointer;
+   
+}
+.inputmessage{
+    width:55%;
+    height:135px;
+    border:3px solid black;
+    color:white;
+    background-color:rgba(0,0,0,0.7);
+    font-size:20px;
+    padding:0 10px;
+    float:left;
+}
+.submitbutton{
+    width:160px;
+    height:65px;
+    background-color:white;
+    color:black;
+    font-size:20px;
+    border:none;
+    float:left;
+    clear:both;
+    margin-top:25px;
+    cursor: pointer;
+}
+.content{
+    position:absolute;
+    width:200px;
+    min-height:450px;
+    height:auto;
+    background-color:black;
+    right:5%;
+    top:10%;
+    padding-right: 10px;
+ background-color:#E8C249;
+    
+}
+.ins{
+  width:50px;
+    height:auto;  
+    float:right;
+    padding-right: 75px;
+    padding-top: 45px;
+    
+}
+p{
+   float:right; 
+  padding:15 40px;
+color:white;
+}
+.email{
+  float:right; 
+  padding:15 10px;
+color:white;
+}
+.ema{
+  width:60px;
+    height:auto;  
+    float:right;
+    padding-right: 75px;
+    padding-top: 15px;  
+}
+.address{
+  width:60px;
+    height:auto;  
+    float:right;
+    padding-right: 75px;
+    padding-top: 15px;   
+}
+.ad{
+  float:right; 
+  padding:15 10px; 
+  color:white;  
+}
+.container{
+    width:100%;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+.img{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    animation:slide 20s infinite;
+    opacity:0;
+}
+@keyframes slide{
+    10%{opacity:1;}
+    45%{opacity:0;}
+}
+img:nth-child(0){animation-delay: 0s;}
+img:nth-child(1){animation-delay: 8s;}
+img:nth-child(2){animation-delay: 16s;}
+img:nth-child(3){animation-delay: 24s;}
+
+
+.footer-main-div{
+    width:100%;
+    height:auto;
+    margin:auto;
+    background:#272727;
+    padding:20px 0px;
+
+}
+.footer-social-icons{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+.footer-social-icons img{
+    height:20px;
+    width:20px;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-social-icons ul{
+     margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-social-icons ul li  {
+    display:inline-block;
+     height:50px;
+    width:50px;
+    margin:0px 10px;
+    border-radius: 50%;
+    background:transparent;
+
+}
+.footer-social-icons ul li img{
+
+    display:inline-block;
+     height:50px;
+    width:50px;
+    margin:0px 10px;
+    border-radius: 100%;
+     background:blue;
+}
+.footer-social-icons ul li a{
+    color:#272727;
+    font-size:24px;
+    display: block;
+}
+.footer-social-icons ul li a i{
+    line-height: 50px;
+}
+.footer-menu-one{
+    width: 100%;
+    height:auto;
+    margin:auto;
+    margin-top:20px;
+
+}
+.footer-menu-one ul{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.footer-menu-one ul li{
+    display: inline-block;
+     margin:0px 20px;
+}
+.footer-menu-one ul li a{
+    font-size:20px;
+    font-weight:600;
+    color:white;
+    text-transform: :uppercase;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
